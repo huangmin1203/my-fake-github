@@ -84,7 +84,7 @@ html, body, div, p, span, img, input {
     cursor: pointer;
 }
 
-.extend-info {4
+.extend-info {
     /* 默认隐藏 */
     /* display: none;  */
     height: 0px;

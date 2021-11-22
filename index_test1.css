@@ -15,7 +15,7 @@ html, body, div, p, span, img, input {
 }
 .container{
     /* no-repeat不让图片重复 */
-    background: url('https://img1.baidu.com/it/u=1322800825,931757870&fm=26&fmt=auto') no-repeat;
+    background: url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fbbsimage.res.meizu.com%2Fforum%2F201411%2F10%2F220617teighielljdzjall.png&refer=http%3A%2F%2Fbbsimage.res.meizu.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1640189560&t=8b37d4dd23a0877d7dad2dd630c73036') no-repeat;
     /* 让背景图铺满盒子 */
     background-size: cover;
     /* 100vh整个浏览器高度 */

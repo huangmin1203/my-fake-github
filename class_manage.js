@@ -3,7 +3,7 @@ function handlleclass(){
     
 
     // 请求课程管理接口 fetch是一个promise(异步调用)，fetch是浏览器原生的请求方法
-    fetch('http://127.0.0.1:3500/class_manage')
+    fetch('http://127.0.0.1:3550/class/list')
         .then((response) => {
             console.log('response', response)
             // 把fetch返回的二进制流转换为json
@@ -23,7 +23,7 @@ function handlleclass(){
                 console.log('classList',classList)
                 let htmlStr = ''
                 for (let index = 0; index < json.data.length; index++) {
-                    htmlStr += `<dt>${json.data[index]}</dt>`
+                    htmlStr += `<dt>${json.data[index]["title"]}</dt>`
                 }
                 console.log(htmlStr);
                 // 设置classList的内容为遍历取到的htmlStr数据

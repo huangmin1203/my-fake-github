@@ -60,6 +60,8 @@ function hideMoreInfo() {
 
 // // 背景图片列表
 const backgroundList = [
+    'https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fbbsimage.res.meizu.com%2Fforum%2F201411%2F10%2F220617teighielljdzjall.png&refer=http%3A%2F%2Fbbsimage.res.meizu.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1640189560&t=8b37d4dd23a0877d7dad2dd630c73036',
+    'https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimages2017.cnblogs.com%2Fnews%2F66372%2F201802%2F66372-20180208220802763-1908370397.png&refer=http%3A%2F%2Fimages2017.cnblogs.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1640189462&t=0efab59d145e8e37f599a785281705eb',
     `https://img0.baidu.com/it/u=3015107692,3301923892&fm=26&fmt=auto`,
     `https://img1.baidu.com/it/u=757606031,646429214&fm=26&fmt=auto`,
     `https://img1.baidu.com/it/u=3465066951,577846474&fm=26&fmt=auto`,
