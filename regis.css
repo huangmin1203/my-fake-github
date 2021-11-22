@@ -1,0 +1,70 @@
+/* padding 内边距 */
+/* margin 外边距 */
+/* border 边框 */
+
+
+
+html,body,div,p,span,img,input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    -webkit-tap-highlight-color: transparent;
+    outline: 0;
+    /* 字体颜色 */
+    color: black;
+    
+}
+
+body{
+    background: url('https://img0.baidu.com/it/u=2153164929,2266059734&fm=26&fmt=auto') no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.regis-box{
+    display: flex;
+    flex-direction: column;
+    text-align:left;
+    width: 430px;
+    height: 250px;
+    /* 字间距 */
+    letter-spacing:5px
+}
+.form-item{
+    font-size:16px;
+    height: 150px;
+    width: 350px;
+    /* border:1px solid #fff; */
+    background: url('https://img0.baidu.com/it/u=2928413817,1175959393&fm=26&fmt=auto') no-repeat;
+
+}
+.password{
+    margin-left: 5px;
+}
+.mailbox{
+    margin-left: 5px;
+}
+.age-num{
+    letter: spacing 0px;
+}
+.regis-botton{
+    margin-top: 25px;
+    text-align: center;  
+    margin-right: 60px;
+}
+.submit {
+        width: 200px;  
+        padding:8px;  
+        background-color: #428bca;  
+        border-color: #357ebd;  
+        color: #fff;  
+       /* 边框圆角 */
+        border-radius: 15px; 
+        text-align: center;        
+        cursor: pointer
+}
+

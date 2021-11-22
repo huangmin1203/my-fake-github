@@ -1,0 +1,103 @@
+/* flex布局 */
+
+
+html, body, div, p, span, img, input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    -webkit-tap-highlight-color: transparent;
+    outline: 0;
+    /* 字体颜色 */
+    color: #fff;
+}
+
+.header {
+    /* 声明这个header盒子为弹性（flex）布局 */
+    display: flex;  
+    /* 水平排列方式 */
+    justify-content: space-between;
+    /* 垂直居中方式 */
+    align-items: center;
+    height: 100px;
+    background-color: black;
+    padding: 0 60px;
+}
+
+.header-left {
+    /* 相对定位 作为子元素定位的基准 */
+    position: relative;
+    display: flex;
+    align-items: center;
+    /* background: red; */
+    height: 100px;
+}
+
+.header-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.title {
+    color: white;
+    margin-left: 20px;
+}
+
+.navigation-button {
+   margin: 10px; 
+}
+
+.header-right {
+    /* background: blue; */
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.register-button {
+    margin: 0 20px;
+}
+
+.action-button {
+    height: 30px;
+}
+
+.input-box {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding-right: 10px;
+}
+
+.search-input {
+    height: 30px;
+    padding-left: 10px;
+    color: #000;
+}
+
+.search-icon {
+    width: 20px;
+    height: 20px;
+    /* 鼠标移上去时的样式 pointer-手指 */
+    cursor: pointer;
+}
+
+.extend-info {4
+    /* 默认隐藏 */
+    /* display: none;  */
+    height: 0px;
+    /* 绝对定位 从当前元素往上找到第一个定位的父盒子为止作为基准 */
+    position: absolute;
+    top: 100px;
+    background-color: #000;
+    /* 过渡 */
+    transition: 0.3s;
+    padding: 0 20px;
+}
+
+.item {
+    height: 30px;
+    color: #fff;
+}

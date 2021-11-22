@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- css文件引用 -->
+    <link rel="stylesheet" href="./index.css">
+    <!-- js文件引用 -->
+    <script src="./index.js"></script>
+</head>
+<body>
+    <!--onmouseover/ onmouseout鼠标移入/移出 -->
+    <div class="header">
+        <div class="header-left">
+            <img class="header-logo" src="https://img2.baidu.com/it/u=3265072706,2184630449&fm=26&fmt=auto" alt="">
+            <div class="title navigation-button">Github</div>
+            <div class="navigation-button"
+                onmouseover="showExtendInfo()"
+                onmouseout="hideExtendInfo()"
+            >团队</div>
+            <div class="navigation-button">企业</div>
+            <div class="navigation-button">市场</div>
+            <div class="navigation-button">发现</div>
+            
+
+            <div class="extend-info">
+                <div class="item">content blabalbalal</div>
+                <div class="item">content blabalbalal</div>
+                <div class="item">content blabalbalal</div>
+                <div class="item">content blabalbalal</div>
+                <div class="item">content blabalbalal</div>
+                <div class="item">content blabalbalal</div>
+                <div class="item">content blabalbalal</div>
+                <div class="item">content blabalbalal</div>
+                <div class="item">content blabalbalal</div>
+            </div>
+        </div>
+
+        <div class="header-right">
+            <div class="input-box">
+                <!-- onkeydown 键盘按下事件 -->
+                <input class="search-input" type="text" placeholder="搜索"
+                    onkeydown="handleInputKeydown()"
+                >
+                <!-- onclick点击事件 -->
+                <img src="./assets/images/icon_search.png" class="search-icon" 
+                    onclick="handleSearch()"
+                >
+            </div>
+            <button class="register-button action-button">注册</button>
+            <button class="login-button action-button">登录</button>
+        </div>
+    </div>
+</body>
+</html>

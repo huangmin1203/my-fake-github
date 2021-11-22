@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./regis.css">
+    <script src="./regis.js"></script>
+    <title>huangmin_regis</title>
+</head>
+<body>
+    <div class="regis-box">
+        <div class="form-item">用户名 
+            <input class ="username" type="text" autocomplete="off" placeholder="请输入用户名">  
+        </div>
+        <div class="form-item">密&nbsp&nbsp码   
+            <input class ="password" type="pwd"  placeholder="请输入密码">  
+        </div>
+        <div class="form-item">确认密码
+            <input class ="resetpwd" type="pwd" placeholder="请再次输入密码"> 
+        </div> 
+        <div class="form-item">邮&nbsp&nbsp箱  
+            <input class ="mailbox" type="text"  placeholder="请输入邮箱">  
+        </div>
+        <div class="form-item">性&nbsp&nbsp别 <br/>
+            <!-- checked预选项的意思-->
+            <input class="myforms-3-2" type="radio" checked ="checked" name="2" value="sex1">男
+            <input class="myforms-3-3" type="radio"  name="2" value="sex2">女
+        </div>
+        <div class="form-item">年&nbsp&nbsp龄 <br/>    
+            <input class="age-num" type="checkbox" ><span>20岁以下</span><br />
+            <input class="age-num" type="checkbox" ><span>20~40岁</span><br />
+            <input class="age-num" type="checkbox" ><span>40~60岁</span><br />
+            <input class="age-num" type="checkbox" ><span>60岁以上</span>
+        </div>
+        <div class="regis-botton">
+            <botton class = "submit" onclick=handleclick()>注册</botton>
+        </div> 
+    </div>
+</body>
+</html>
