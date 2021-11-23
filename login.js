@@ -20,7 +20,7 @@ function handleskip() {
         // }
     }
     // 请求登录接口 fetch是一个promise(异步调用)
-    fetch('http://127.0.0.1:3550/user/login', opts)
+    fetch('http://127.0.0.1:3550/user/', opts)
         .then((response) => {
             console.log('response', response)
             // 把fetch返回的二进制流转换为json

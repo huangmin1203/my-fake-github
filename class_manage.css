@@ -40,3 +40,37 @@ body{
 .class-input{
     
 }
+
+
+.class-list {
+    padding-top: 20px;
+}
+
+dt {
+    margin: 10px 0;
+}
+
+.class-add {
+    display: flex;
+    align-items: center;
+}
+
+.class-add-input {
+    width: 120px;
+    height: 28px;
+    line-height: 28px;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.class-input-button {
+    width: 60px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    font-size: 14px;
+    color: #ff4a4a;
+    border: 0;
+}
